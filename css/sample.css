@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 32px;
+  width: 100%;
+  background-image: url(https://www.yamakei-online.com/new_images/cl_record/185662/11_l.jpg?1018);
+}
+header {
+  /* background-color: #fff; */
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+h1 {
+  font-size: 100%;
+}
+main {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+footer {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+p {
+  font-size: 200%;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  height: 200px;
+}
+ul {
+  padding: 0;
+  border-top: 1px solid #000000;
+  display: table; /* 定義 */
+  table-layout: fixed;
+  width: 96%;
+  font-size: 80%;
+  margin: 0 3%;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  border: 1px solid #666;
+  background-color: #fff;
+  display: table-cell; /* 定義 */
+  cursor: pointer;
+  color: #8e8a4c6f;
+}
+li:hover {
+  background: antiquewhite;
+  color: #fff;
+}
+textarea {
+  margin: 10px 3%;
+  width: 95%;
+  height: 100px;
+  font-size: 80%;
+  box-shadow: 3px 3px 3px 3px #555;
+  background-color: rgba(222, 240, 148, 0.416);
+}
+#key {
+  margin: 0 3%;
+  width: 95%;
+  font-size: 80%;
+  background-color: #ebf5cb;
+  box-shadow: 3px 3px 3px 3px #555;
+}
+table {
+  margin: 20px 3%;
+  border: 1px solid #5e674fae;
+  width: 96%;
+}
+th {
+  width: 30%;
+  font-size: 24px;
+  background-color: #bef4aa77;
+  border-bottom: 1px solid #2d3238;
+}
+td {
+  font-size: 16px;
+  background-color: rgb(241, 239, 239);
+  border-bottom: 1px solid #202123;
+}
+input {
+  margin: 10px 3%;
+  width: 95%;
+  height: 40px;
+  font-size: 80%;
+}
